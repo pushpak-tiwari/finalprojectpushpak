@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>title</title>
+	<meta name="author" content="name">
+	<meta name="description" content="description here">
+	<meta name="keywords" content="keywords,here">
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans|Reem+Kufi|&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<section id="bgImage">
+		<section id="overlayEffect"></section>
+	</section>
+  	<header>
+  		<section id="mainNavSection">
+  			<div class="mainWrapper">
+  				<section id="mainNavContainer">
+  					<div id="logoWrapper">
+  						<a href="{% url 'home' %}">PT</a>
+  					</div>
+  				</section>
+  			</div>
+  		</section>
+  	</header>
+
+  	<section id="introWrapper">
+  		<div class="mainWrapper">
+  			<section id="introContainer">
+	  			<section id="IC-selfAboutWrapper">	
+	  				<h1>Hello,</h1>
+	  				<h3>I'm Pushpak Tiwari<br>From Itarsi</h3>
+	  				<h4>web developer</h4>
+	  				<p>my job is to shape your ideas into reality through my innovative and creative designs. i am available here for you anytime.</p>
+	  			</section>
+
+	  			<div id="socialButtons">
+	  				<ul>
+	  					<li>
+	  						<a href="https://www.facebook.com/pushpak.tiwari.988" target="_blank"><i class="fa fa-facebook"></i></a>
+	  					</li><li>	
+	  						<a href="https://twitter.com/PushpakTiwari8" target="_blank"><i class="fa fa-twitter"></i></a>
+	  					</li><li>	
+	  						<a href="https://www.instagram.com/pushpak_tiwari/" target="_blank"><i class="fa fa-instagram"></i></a>
+	  					</li>
+	  				</ul>	
+	  				<p>keep in touch here</p>
+	  			</div>	
+  			</section>
+  		</div>
+  	</section>
+</body>
+</html>
